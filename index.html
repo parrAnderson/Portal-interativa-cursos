@@ -1,0 +1,725 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Universidade Interativa</title>
+
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
+		<link rel="stylesheet" href="assets/font-awesome/css/font-awesome.min.css">		
+		<link href="https://fonts.googleapis.com/css?family=Istok+Web" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Roboto:400,400i,700" rel="stylesheet">
+		<link rel="stylesheet" href="assets/css/magnific-popup.css">
+		<link rel="stylesheet" type="text/css" href="assets/css/main.css">
+		<link rel="icon" href="favicon.png">
+			<link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" />
+	<!-- jQuery library -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+	<!--[if lt IE 9]>
+		  <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+		  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+		<![endif]-->
+		<!-- SCRIPT PLAY -->
+    <!--<audio id="RadioEnVivo"><source src="http://stm6.xcast.com.br:11516/stream?type=.mp3" type="audio/mp3"></audio>-->
+    <!--<audio id="RadioEnVivo"><source src="http://stm6.xcast.com.br:11516/;" type="audio/mp3"></audio>-->
+    <audio id="RadioEnVivo"><source src="http://stm6.xcast.com.br:11516/;" type="audio/mp3"></audio>
+	<script>
+		function EvalSound(soundobj, button) {
+			var thissound = document.getElementById(soundobj);
+			if (thissound.paused) {
+			  thissound.play();
+			  $(button).find(".glyphicon").removeClass("glyphicon-play").addClass("glyphicon-pause");
+			} else {
+			  thissound.pause();
+			  $(button).find(".glyphicon").removeClass("glyphicon-pause").addClass("glyphicon-play");
+			}
+		  }
+    </script>
+	</head>
+	<body>
+	    		<!-- Wrapper -->
+		<section class="head" id="header">
+			<div class="wrapper">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-12">
+							<header class="header">
+								<div class="inner">
+									<!-- Logo -->
+									<a href="#menu"class="nav-bars">
+										<img src="menu.PNG" style="width: 40px; img-responsive">
+									</a>
+									<a href="index.html" class="logo">
+										<span class="symbol"><img src="logocurso.jpg" width="200" title="Interativa Cursos" /></span>
+									</a>
+									<a class="link-whatsapp" target="_blank" href="whatsapp://send?phone=55511962368432">
+									<img src="banner01.PNG" alt="" title="Anuncie aqui" style="width: 100%;" />
+								</a>
+								</div>
+							</header>
+							<!-- Menu -->
+							<nav id="menu">
+								<h2>Menu</h2>
+								<ul>
+									<li><a href="#">Central do aluno</a></li>
+									<li><a href="#">Meus cursos</a></li>
+									<li><a href="#">EAD</a></li>
+									<li><a href="#">Cursos Gratuitos</a></li>
+									<li><a href="#">Matriculas</a></li>
+									<li><a href="#">Programa Prouni</a></li>
+									<input class="form-control mr-sm-2" type="text" placeholder="Buscar">
+    <button class="btn btn-warning" type="submit">Pesquisar</button>
+									<li><a href="" target="_blank"></a></li>
+								</ul>
+							</nav>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- Main -->
+
+		<section class="main-body">
+			<div class="container">
+							<div class="tiles">
+					<div class="row">
+						<div class="col-md-4">
+							<div class="a">
+<a href="#" onClick="EvalSound('RadioEnVivo', this)">
+              
+									<img src="matriculas.png" class="img-responsive" alt="">
+									<div class="img-hover glass">
+										<div class="c-table">
+											<div class="ct-cell">
+												<h3 class="img-title"></h3>
+											</div>
+										</div>
+									</div>
+								</a>
+							</div>
+							
+							<!--<div id="test-popup-1" class="white-popup mfp-hide">
+							  	<div class="container-fluid">
+									<div class="row">
+										<div class="pop-up-color">
+											<div class="col-md-8 p-l-0 p-r-0">
+												<img src="images/radio_vivo_megafox.jpg" class="img-responsive" alt="Responsive image">
+											</div>
+											<div class="col-md-4">
+												<div>
+													<h2 class="popup-head">Glass</h2>
+												</div>
+												<div>
+													<p class="popup-parapraph">Etiam quis viverra lorem, in semper lorem. Sed nisl arcu euismod sit a amet nisi is a euismod sed cursus arcu elementum and ipsum arcu vivamus is quis venenatis orci and nullam dolore. Etiam quis viverra lorem, in semper lorem. Sed nisl arcu euismod still amet nisi aliqua.Eas Lorem ipsum dolor sit amet.</p>
+												</div>
+												<div class="pop-up-icon">
+													<div class="row">
+														<ul class="text-center popup-social-contact">
+															<li class="popup-social-icons">
+															<a href="#" class="icon pop-up fa-facebook"><span class="label">Facebook</span></a>
+															</li>
+															<li class="popup-social-icons">
+																<a href="#" class="icon pop-up fa-twitter"><span class="label">Twitter</span></a>
+															</li>
+															<li class="popup-social-icons">
+																<a href="#" class="icon pop-up fa-google-plus"><span class="label">GooglePlus</span></a>
+															</li>
+															<li class="popup-social-icons">
+																<a href="#" class="icon pop-up fa-pinterest"><span class="label">pinterest</span></a>
+															</li>
+														</ul>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>-->
+						</div>
+						<div class="col-md-4">
+							<div class="a">
+									<a class="link-whatsapp" target="_blank" href="">
+									<img src="https://optclean.com.br/wp-content/uploads/2015/06/whatsapp-banner.jpg" class="img-responsive" alt="Responsive image">
+									<div class="img-hover shoes-glass">
+										<div class="c-table">
+											<div class="ct-cell">
+												<h3 class="img-title">Whatsapp</h3>
+											</div>
+										</div>
+									</div>
+								</a>
+							</div>
+
+							
+							<!--<div id="test-popup-2" class="white-popup mfp-hide">
+							  	<div class="container-fluid">
+									<div class="row">
+										<div class="pop-up-color">
+											<div class="col-md-8 p-l-0 p-r-0">
+												<img src="images/tv_online_megafox.jpg" class="img-responsive" alt="Responsive image">
+											</div>
+											<div class="col-md-4">
+												<div>
+													<h2 class="popup-head">SHOES & GLASS</h2>
+												</div>
+												<div>
+													<p class="popup-parapraph">Etiam quis viverra lorem, in semper lorem. Sed nisl arcu euismod sit a amet nisi is a euismod sed cursus arcu elementum and ipsum arcu vivamus is quis venenatis orci and nullam dolore. Etiam quis viverra lorem, in semper lorem. Sed nisl arcu euismod still amet nisi aliqua.Eas Lorem ipsum dolor sit amet.</p>
+												</div>
+												<div class="pop-up-icon">
+													<div class="row">
+														<ul class="text-center popup-social-contact">
+															<li class="popup-social-icons">
+															<a href="#" class="icon pop-up fa-facebook"><span class="label">Facebook</span></a>
+															</li>
+															<li class="popup-social-icons">
+																<a href="#" class="icon pop-up fa-twitter"><span class="label">Twitter</span></a>
+															</li>
+															<li class="popup-social-icons">
+																<a href="#" class="icon pop-up fa-google-plus"><span class="label">GooglePlus</span></a>
+															</li>
+															<li class="popup-social-icons">
+																<a href="#" class="icon pop-up fa-pinterest"><span class="label">pinterest</span></a>
+															</li>
+														</ul>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>-->
+						</div>
+
+						<div class="col-md-4">
+								<div class="video-inicio embed-responsive embed-responsive-16by9">
+										<div class="video-institucional">
+												<iframe width="560" height="315" src="https://www.youtube.com/embed/T5oo6PkGOBA?start=5" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+												</div>
+									</div>
+					</div><br>
+
+					<style>
+							.video-inicio{
+								margin-top: 15px;
+								
+								
+							}
+							
+							@media (min-width:901px) { 
+								.video-inicio{
+									height: 205px;
+								}
+							}
+							
+							@media (min-width:1199px) { 
+								.video-inicio{
+									height: 251px;
+							}
+							
+							
+							}
+							</style>
+
+					<div class="row">
+					
+					<div class="col-md-4 col-md-offset-2">
+							<div class="a">
+								<a href="index.html" target="_blank" title="Aplicativo no ios">
+									<img src="ead.JPG" class="img-responsive" alt="Responsive image">
+								</a>
+							</div>
+					</div>
+					<div class="col-md-4">
+							<div class="a">
+								<a href="" target="_blank" title="Aplicativo Android">
+									<img src="bolsadeestudo.JPG" class="img-responsive" alt="Responsive image">
+								</a>
+							</div>
+					</div>
+					</div><br>
+					<div class="row">
+						<div class="col-md-4">
+							<div class="a">
+								<a href="#test-popup-3" class="open-popup-link">
+									<img src="Capturar.PNG" class="img-responsive" alt="Responsive image">
+									<div class="img-hover hand-parts">
+										<div class="c-table">
+											<div class="ct-cell">
+												<h3 class="img-title"></h3>
+											</div>
+										</div>
+									</div>
+								</a>
+							</div>
+							<div id="test-popup-3" class="white-popup mfp-hide">
+							  	<div class="container-fluid">
+									<div class="row">
+										<div class="pop-up-color">
+											<div class="col-md-8 p-l-0 p-r-0">
+												<img src="Capturar.PNG" class="img-responsive" alt="Responsive image">
+											</div>
+											<div class="col-md-4">
+												<div>
+													<h2 class="popup-head">Processo Seletivo</h2>
+												</div>
+												<div>
+													<p class="popup-parapraph">Inscreva-se já e tenha a oportunidade de ganhar bolsa de até 100%<b>.</p>
+												</div>
+												<div class="pop-up-icon">
+													<div class="row">
+														<ul class="text-center popup-social-contact">
+															<li class="popup-social-icons">
+															<a href="#" class="icon pop-up fa-facebook"><span class="label">Facebook</span></a>
+															</li>
+															<li class="popup-social-icons">
+																<a href="#" class="icon pop-up fa-twitter"><span class="label">Twitter</span></a>
+															</li>
+															<li class="popup-social-icons">
+																<a href="#" class="icon pop-up fa-google-plus"><span class="label">GooglePlus</span></a>
+															</li>
+															<li class="popup-social-icons">
+																<a href="#" class="icon pop-up fa-pinterest"><span class="label">pinterest</span></a>
+															</li>
+														</ul>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-4">
+							<div class="a">
+								<a href="#test-popup-4" class="open-popup-link">
+									<img src="predio.jpg" class="img-responsive" alt="Responsive image">
+									<div class="img-hover table-with-phone">
+										<div class="c-table">
+											<div class="ct-cell">
+												<h3 class="img-title">Conheça nossas Unidades</h3>
+											</div>
+										</div>
+									</div>
+								</a>
+							</div>
+							<div id="test-popup-4" class="white-popup mfp-hide">
+							  	<div class="container-fluid">
+									<div class="row">
+										<div class="pop-up-color">
+											<div class="col-md-8 p-l-0 p-r-0">
+												<img src="predio.jpg"  style="width: 60% ;"   class="img-responsive" alt="Responsive image">
+											</div>
+											<div class="col-md-4">
+												<div>
+													<h2 class="popup-head">Conheça Nossas Unidades</h2>
+												</div>
+												<div>
+													<p class="popup-parapraph">São Paulo-SP, Campinas-SP, São José dos Campos-SP, São Caetano do sul-SP<b></b>.</p>
+												</div>
+												<div class="pop-up-icon">
+													<div class="row">
+														<ul class="text-center popup-social-contact">
+															<li class="popup-social-icons">
+															<a href="#" class="icon pop-up fa-facebook"><span class="label">Facebook</span></a>
+															</li>
+															<li class="popup-social-icons">
+																<a href="#" class="icon pop-up fa-twitter"><span class="label">Twitter</span></a>
+															</li>
+															<li class="popup-social-icons">
+																<a href="#" class="icon pop-up fa-google-plus"><span class="label">GooglePlus</span></a>
+															</li>
+															<li class="popup-social-icons">
+																<a href="#" class="icon pop-up fa-pinterest"><span class="label">pinterest</span></a>
+															</li>
+														</ul>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-4">
+							<div class="a">
+								<a href="#test-popup-5" class="open-popup-link">
+									<img src="cursos.PNG" class="img-responsive" alt="Responsive image">
+									<div class="img-hover orange-shoe">
+										<div class="c-table">
+											<div class="ct-cell">
+												<h3 class="img-title">Cursos</h3>
+											</div>
+										</div>
+									</div>
+								</a>
+							</div>
+							<div id="test-popup-5" class="white-popup mfp-hide">
+							  	<div class="container-fluid">
+									<div class="row">
+										<div class="pop-up-color">
+											<div class="col-md-8 p-l-0 p-r-0">
+												<img src="cursos.png" class="img-responsive" alt="Responsive image">
+											</div>
+											<div class="col-md-4">
+												<div>
+													<h2 class="popup-head">Cursos</h2>
+												</div>
+												<div>
+													<p class="popup-parapraph">Arquitetura e Urbanismo, Design,Engenharia Civil, Engenharia de Produção, Engenharia Elétrica, Engenharia Mecânica, Tecnologia em Mecatrônica Industrial,Tecnologia em Design Gráfico, tecnologia da Informação, Tecnologia em Design de Produto<b> Entre outras</b>.</p>
+												</div>
+												<div class="pop-up-icon">
+													<div class="row">
+														<ul class="text-center popup-social-contact">
+															<li class="popup-social-icons">
+															<a href="#" class="icon pop-up fa-facebook"><span class="label">Facebook</span></a>
+															</li>
+															<li class="popup-social-icons">
+																<a href="#" class="icon pop-up fa-twitter"><span class="label">Twitter</span></a>
+															</li>
+															<li class="popup-social-icons">
+																<a href="#" class="icon pop-up fa-google-plus"><span class="label">GooglePlus</span></a>
+															</li>
+															<li class="popup-social-icons">
+																<a href="#" class="icon pop-up fa-pinterest"><span class="label">pinterest</span></a>
+															</li>
+														</ul>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div><br>
+					<div class="row">
+						<div class="col-md-3">
+							<div class="a">
+								<a href="#test-popup-6" class="open-popup-link">
+									<img src="imgead.JPG" class="img-responsive" alt="Responsive image">
+									<div class="img-hover glass-shoes">
+										<div class="c-table">
+											<div class="ct-cell">
+												<h3 class="img-title">Ensino à Distância</h3>
+											</div>
+										</div>
+									</div>
+								</a>
+							</div>
+							<div id="test-popup-6" class="white-popup mfp-hide">
+							  	<div class="container-fluid">
+									<div class="row">
+										<div class="pop-up-color">
+											<div class="col-md-8 p-l-0 p-r-0">
+												<img src="imgead.JPG" class="img-responsive" alt="Responsive image">
+											</div>
+											<div class="col-md-4">
+												<div>
+													<h2 class="popup-head">Ensino à Distancia</h2>
+												</div>
+												<div>
+													<p class="popup-parapraph">Ciências Exatas, Ciências economicas, ciências Humanas, computação Licenciatura, Ciências da Computação, Comercio exterior, Design de Interiores, Artes Visuais  <b>Entre outros</b>.</p>
+												</div>
+												<div class="pop-up-icon">
+													<div class="row">
+														<ul class="text-center popup-social-contact">
+															<li class="popup-social-icons">
+															<a href="#" class="icon pop-up fa-facebook"><span class="label">Facebook</span></a>
+															</li>
+															<li class="popup-social-icons">
+																<a href="#" class="icon pop-up fa-twitter"><span class="label">Twitter</span></a>
+															</li>
+															<li class="popup-social-icons">
+																<a href="#" class="icon pop-up fa-google-plus"><span class="label">GooglePlus</span></a>
+															</li>
+															<li class="popup-social-icons">
+																<a href="#" class="icon pop-up fa-pinterest"><span class="label">pinterest</span></a>
+															</li>
+														</ul>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-3">
+							<div class="a">
+								<a href="#test-popup-7" class="open-popup-link">
+									<img src="vestibular2020.PNG" class="img-responsive" alt="Responsive image">
+									<div class="img-hover girls-tops">
+										<div class="c-table">
+											<div class="ct-cell">
+												<h3 class="img-title">Vestibular 2020</h3>
+											</div>
+										</div>
+									</div>
+								</a>
+							</div>
+							<div id="test-popup-7" class="white-popup mfp-hide">
+							  	<div class="container-fluid">
+									<div class="row">
+										<div class="pop-up-color">
+											<div class="col-md-8 p-l-0 p-r-0">
+												<img src="vestibular2020.PNG" class="img-responsive" alt="Responsive image">
+											</div>
+											<div class="col-md-4">
+												<div>
+													<h2 class="popup-head">Vestibular 2020</h2>
+												</div>
+												<div>
+													<p class="popup-parapraph"> Inscrições Abertas! Use sua Nota no Enem e Ganhe até 100% em Bolsas de Estudo.<p> <a href="">Saiba Mais></a></p>
+												</div>
+												<div class="pop-up-icon">
+													<div class="row">
+														<ul class="text-center popup-social-contact">
+															<li class="popup-social-icons">
+															<a href="#" class="icon pop-up fa-facebook"><span class="label">Facebook</span></a>
+															</li>
+															<li class="popup-social-icons">
+																<a href="#" class="icon pop-up fa-twitter"><span class="label">Twitter</span></a>
+															</li>
+															<li class="popup-social-icons">
+																<a href="#" class="icon pop-up fa-google-plus"><span class="label">GooglePlus</span></a>
+															</li>
+															<li class="popup-social-icons">
+																<a href="#" class="icon pop-up fa-pinterest"><span class="label">pinterest</span></a>
+															</li>
+														</ul>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-3">
+							<div class="a">
+								<a href="#test-popup-8" class="open-popup-link">
+									<img src="cursosgratuitos2.jpg" class="img-responsive" alt="Responsive image">
+									<div class="img-hover egg-arts">
+										<div class="c-table">
+											<div class="ct-cell">
+												<h3 class="img-title"></h3>
+											</div>
+										</div>
+									</div>
+								</a>
+							</div>
+							<div id="test-popup-8" class="white-popup mfp-hide">
+							  	<div class="container-fluid">
+									<div class="row">
+										<div class="pop-up-color">
+											<div class="col-md-8 p-l-0 p-r-0">
+												<img src="cursosgratuitos2.jpg" class="img-responsive" alt="Responsive image">
+											</div>
+											<div class="col-md-4">
+												<div>
+													<h2 class="popup-head">Cursos Gratuitos</h2>
+												</div>
+												<div>
+													<p class="popup-parapraph"> <b>Informática Aplicada a Educação, Corretor de Imóveis, Coordenação e Orientação Escolar, Básico de Recepcionista, Auxiliar de Escritório - Administrativo, Auxiliar de Almoxarifado</b><i><a href="">Conheça Os Cursos</a></i></p>
+												</div>
+												<div class="pop-up-icon">
+													<div class="row">
+														<ul class="text-center popup-social-contact">
+															<li class="popup-social-icons">
+															<a href="#" class="icon pop-up fa-facebook"><span class="label">Facebook</span></a>
+															</li>
+															<li class="popup-social-icons">
+																<a href="#" class="icon pop-up fa-twitter"><span class="label">Twitter</span></a>
+															</li>
+															<li class="popup-social-icons">
+																<a href="#" class="icon pop-up fa-google-plus"><span class="label">GooglePlus</span></a>
+															</li>
+															<li class="popup-social-icons">
+																<a href="#" class="icon pop-up fa-pinterest"><span class="label">pinterest</span></a>
+															</li>
+														</ul>														
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-3">
+							<div class="a">
+								<a href="#test-popup-9" class="open-popup-link">
+									<img src="ouvidoria.png" class="img-responsive" alt="Responsive image">
+									<div class="img-hover egg-arts" style="background-color: #d50f16;">
+										<div class="c-table">
+											<div class="ct-cell">
+												<h3 class="img-title">Fale Conosco</h3>
+											</div>
+										</div>
+									</div>
+								</a>
+							</div>
+							<div id="test-popup-9" class="white-popup mfp-hide">
+							  	<div class="container-fluid">
+									<div class="row">
+										<div class="pop-up-color">
+											<div class="col-md-8 p-l-0 p-r-0">
+												<img src="ouvidoria.png" class="img-responsive" alt="Responsive image">
+											</div>
+											<div class="col-md-4">
+												<div>
+													<h2 class="popup-head">Ouvidoria</h2>
+												</div>
+												<div>
+													<p class="popup-parapraph"> Para registrar sua Manifestação  <a href="https://www.ouvidoria.sp.gov.br/Portal/Default.aspx" target= "_blank" >clique aqui:</a>
+												<div class="pop-up-icon">
+													<div class="row">
+														<ul class="text-center popup-social-contact">
+															<li class="popup-social-icons">
+															<a href="#" class="icon pop-up fa-facebook"><span class="label">Facebook</span></a>
+															</li>
+															<li class="popup-social-icons">
+																<a href="#" class="icon pop-up fa-twitter"><span class="label">Twitter</span></a>
+															</li>
+															<li class="popup-social-icons">
+																<a href="#" class="icon pop-up fa-google-plus"><span class="label">GooglePlus</span></a>
+															</li>
+															<li class="popup-social-icons">
+																<a href="" ; class="icon pop-up fa-pinterest"><span class="label"></span></a>
+															</li>
+														</ul>														
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="contact">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-8">
+						<h1>ENVIAR MENSAGEM</h1>
+							<form>
+								<div class="row">
+									<div class="col-md-6">
+										<div class="form-group">
+											<input type="text" class="form-control gt" name="name" id="name" placeholder="Nome"/>
+										</div>
+									</div>
+									<div class="col-md-6">
+										<div class="form-group">
+											<input type="email" class="form-control gt" name="email" id="email" placeholder="E-mail" />
+										</div>
+									</div>
+								</div>
+								<div class="row">
+									<div class="col-md-12">
+										<div class="from-group">
+											<textarea class="form-control gt" rows="2" name="message" id="message" placeholder="Mensagem"></textarea>
+										</div>
+									</div>
+								</div>
+							</form>
+							<div class="form-group"  text-align="right">
+							    <div class="col-sm-offset-2 col-sm-10">
+							      <a href="#" type="submit" class="btn btn-tobais btn-send-2">ENVIAR</a>
+							    </div>
+							</div>
+						</div>
+					<div class="col-md-4">
+						<h1>CONTATO</h1>
+							
+							<p><Strong>Endereço: </Strong> Rua Pinheiro de moraes, 520 - centro - São Paulo.</p>				
+							<p><Strong>Whatsapp: </Strong>11 20589952 -11 20589955</p>						
+							<p><Strong>E-mail: </Strong>faculdadeinterativa.edu.br</p>						
+					</div>
+				</div>				
+			</div>
+		</section>
+
+		<section class="social-contact-icon">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12 col-xs-12">
+						<ul class="text-center social-contact">
+							<li class="social-icons">
+							<a href="https://www.facebook.com/MEGA-FOX-467646513596733/" target="_blank" class=""> <img src="https://cliply.co/wp-content/uploads/2019/07/371907490_FACEBOOK_ICON_400px.gif" style="width: 80px; alt="><span class="label"></span></a>
+							</li>
+							
+							</li>
+							<li class="social-icons">
+								<a href="https://www.instagram.com/?hl=pt-br" target="_blank" class=""> <img src="https://i.pinimg.com/originals/16/36/3c/16363c95f647c95b678c2c5a15ea9a0e.gif" style="width: 120px;" alt=""><span class="label"></span></a>
+							</li>
+							<li class="social-icons">
+								<a href="#" class="youtube"> <img src="https://img1.ibxk.com.br/2017/08/29/29125300374600.gif"  style="width: 120px;" target="_blank">   <span class="label"></span></a>
+							</li>
+							<li class="social-icons">
+								<a href="#" class="linkedin"> <img src="https://cdn.dribbble.com/users/779248/screenshots/5694223/comp-3.gif"  style="width: 120px;" target="_blank">   <span class="label"></span></a>
+							</li>
+						</ul>							
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="footer">		
+			<footer>
+				<div class="container">
+					<div class="row">
+						<div class="col-sm-8 col-xs-9">
+							<p class="right-color" > <a href="http://andersonparraluiz.000webhostapp.com/" target="_blank" > Copyright 2019. desenvolvido por Web-setup®.</a></p>
+						</div>
+						<div class="col-sm-4 col-xs-3" text-align="right">
+							<a href="#" id="back-to-top" class="top text-right" style="color:white;" >TOPO <i class="fa fa-angle-up" aria-hidden="true"></i> </a>
+						</div>
+					</div>
+				</div>											
+			</footer>
+		</section>
+
+
+<style>
+.footer {background-color: whitesmoke; text-align: center;}
+.social-contact-icon {background-color: white;}
+
+</style>
+
+
+	<!-- Scripts -->
+
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+		<script src="assets/js/bootstrap.min.js"></script>
+		<script src="assets/js/jquery.magnific-popup.min.js"></script>
+
+		<script src="assets/js/script.js"></script>
+
+		<script src="./assets/js/funcoes.js"></script>
+
+		<!--  ===== Scroll to Top ====  -->
+	    <script>
+			if ($('#back-to-top').length) {
+			    $('#back-to-top').on('click', function (e) {
+			        e.preventDefault();
+			        $('html,body').animate({
+			            scrollTop: 0
+			        }, 700);
+			    });
+			}
+		</script>
+		
+	</body>
+</html>
